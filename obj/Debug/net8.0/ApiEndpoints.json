@@ -1,0 +1,102 @@
+[
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.ApiTestController",
+    "Method": "Test",
+    "RelativePath": "api/ApiTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.ApiTestController",
+    "Method": "TestWithAuthorization",
+    "RelativePath": "api/ApiTest",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.AtmTransacController",
+    "Method": "SaveTransaction",
+    "RelativePath": "api/AtmTransac",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOs",
+        "Type": "ATMDotNetCoreApp.DTOs.AtmTransacDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.AtmTransacController",
+    "Method": "GetBalance",
+    "RelativePath": "api/AtmTransac",
+    "HttpMethod": "GET",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AccNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.AtmTransactionController",
+    "Method": "GetBalance",
+    "RelativePath": "api/AtmTransaction/GetBalance",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "AccNo",
+        "Type": "System.Int32",
+        "IsRequired": false
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.AtmTransactionController",
+    "Method": "SaveTransaction",
+    "RelativePath": "api/AtmTransaction/SaveTransac",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "dTOs",
+        "Type": "ATMDotNetCoreApp.DTOs.AtmTransacDTOs",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  },
+  {
+    "ContainingType": "ATMDotNetCoreApp.Controllers.AuthController",
+    "Method": "Login",
+    "RelativePath": "api/Auth/login",
+    "HttpMethod": "POST",
+    "IsController": true,
+    "Order": 0,
+    "Parameters": [
+      {
+        "Name": "loginModel",
+        "Type": "ATMDotNetCoreApp.Models.LoginModel",
+        "IsRequired": true
+      }
+    ],
+    "ReturnTypes": []
+  }
+]

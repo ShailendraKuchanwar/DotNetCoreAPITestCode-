@@ -1,0 +1,19 @@
+﻿@model LoginModel
+
+<form asp-action="LoginUser" method="post"></form>
+<div asp-validation-summary="All" class="text-danger"></div>
+<div>
+    <label asp-for="AccNo">Account Number</label>
+    <input asp-for="AccNo" />
+    <span asp-validation-for="AccNo"></span>
+</div>
+<div>
+    <label asp-for="ActPin">Account Pin</label>
+    <input asp-for="ActPin" />
+    <span asp-validation-for="ActPin"></span>
+</div>
+<div></div>
+<div>
+    <button type="submit">Login</button><br/>
+    <a asp-controller="Login" asp-action="CreateUser">Create New User</a>
+</div>
